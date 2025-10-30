@@ -55,10 +55,28 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               children: [ClipRRect(
                 borderRadius: BorderRadius.circular(20),
-                child: Images.images(ImagesAsset,
+                child: Images.images("images/gambar1.jpg",
                   width: 150,
                   height: 300,
-
+                ),
+              ),],
+            ),
+            SizedBox(height: 16),
+            Row(
+              children: [ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Images.images("images/gambar2.jpg",
+                  width: 150,
+                  height: 300,
+                ),
+              ),],
+            ),
+            Row(
+              children: [ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: Images.images("images/gambar3.jpg",
+                  width: 150,
+                  height: 300,
                 ),
               ),],
             ),
@@ -89,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Image.asset("gambar4.png",
+                    Image.asset("images/gambar4.png",
                     height: 250,
                     width: double.infinity,
                     fit: BoxFit.fill)
