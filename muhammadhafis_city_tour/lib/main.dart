@@ -98,28 +98,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 )
               ))],
             ),
+            SizedBox(height: 10),
             Row(
               children: [Flexible(child: Padding(padding: EdgeInsets.symmetric(horizontal: 30),
                 child: Text(
                   "Blue body of water.",
                   softWrap: true,
                   textAlign: TextAlign.justify,
-                ),
-              ))],
+                ),),
+              )
+              ],
             ),
-
-
-
           ],
         ),
-
-          ),
-        );
-
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ),
-  },
-},
+        ),
+    );
+  }
+}
