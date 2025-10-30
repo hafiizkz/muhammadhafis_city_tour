@@ -98,6 +98,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 )
               ))],
             ),
+            Row(
+              children: [Flexible(child: Padding(padding: EdgeInsets.symmetric(horizontal: 30),
+                child: Text(
+                  "Blue body of water.",
+                  softWrap: true,
+                  textAlign: TextAlign.justify,
+                ),
+              ))],
+            ),
 
 
 
